@@ -3,7 +3,7 @@ import Card from './components/Card';
 
 export default function Home() {
   return (
-    <div className="h-screen mx-auto bg-gray-800 pt-16">
+    <div className="h-screen mx-auto bg-gray-800 md:pt-16">
       <Head>
         <title>Daryl Findlay - Web Engineer 👨🏼‍💻</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,7 +12,7 @@ export default function Home() {
       <main className="container mx-auto rounded-xl bg-gray-300 p-8">
         <h1 className="text-6xl font-bold tracking-wide font-mono text-red-900">Daryl's Portfolio</h1>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-wrap">
           <Card />
           <Card />
           <Card />
